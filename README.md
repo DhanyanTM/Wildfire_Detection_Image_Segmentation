@@ -28,3 +28,12 @@ Dataset
 resolution of 3480x2160. The size of this repository is
 5.3 GB and the format is JPEG. It also includes 2,003
 JPEG files of ground truth masks, which was 23.4 MB.
+
+My Inference:
+Although SegFormer has strengths in precision and efficient representation learning, UNet proves to be the better
+candidate for wildfire detection, primarily due to its superior recall and segmentation completeness. The negligible increase in false positives is an acceptable compromise
+given our higher priority to detect all possible fire instances
+with minimal latency. UNet is more suited for deployment
+in high-risk, real-time wildfire monitoring systems, where
+missing even a single instance of fire can have devastating
+consequences.
