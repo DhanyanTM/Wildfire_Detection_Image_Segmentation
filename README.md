@@ -21,3 +21,10 @@ pixels.
 • Evaluation Metrics: Some common metrics for semantic segmentation that we chose to use include IoU,
 Precision, Recall, F1 Score, False Positive & False
 Negative Rates, Pixel Accuracy, and Inference Speed.
+
+Dataset
+• Source: IEEE DataPort FLAME Dataset.
+• Size: This dataset consists of 2,003 fire frames with a
+resolution of 3480x2160. The size of this repository is
+5.3 GB and the format is JPEG. It also includes 2,003
+JPEG files of ground truth masks, which was 23.4 MB.
